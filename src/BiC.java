@@ -30,5 +30,7 @@ public class BiC
         System.out.println("Born in Cambridge");
         System.out.println("A football manager by " + BiC.author);
         System.out.println("version " + BiC.version);
+        Server server = new Server();
+        return;
     }
 }

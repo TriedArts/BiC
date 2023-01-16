@@ -13,6 +13,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  */
 // I M P O R T S
 // M A I N  C L A S S  D E F I N I T I O N
+
+import BusinessLogic.Schedule;
+
 /**
  * BiC - Born in Cambridge
  *
@@ -35,6 +38,7 @@ public class BiC
         System.out.println("A football manager by " + BiC.author);
         System.out.println("version " + BiC.version);
         Server server = new Server();
+        Schedule.ScheduleBuilder.buildSchedule("Dat/18StdLeagueSchedule.json");
         return;
     }
 }

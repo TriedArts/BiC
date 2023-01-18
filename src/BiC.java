@@ -14,7 +14,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 // I M P O R T S
 // M A I N  C L A S S  D E F I N I T I O N
 
-import BusinessLogic.Schedule;
+import Deprecated.Schedule;
 
 /**
  * BiC - Born in Cambridge

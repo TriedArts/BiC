@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Competition
 {
     // S T A T I C  C O N S T A N T S
+
     // A T T R I B U T E S
     private int             id;
     private String          name;

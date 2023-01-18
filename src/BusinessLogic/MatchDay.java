@@ -14,8 +14,17 @@ public class MatchDay
     {
         this.matches = new ArrayList<Match>();
     }
+
     // S E T S  A N D  G E T S
+    public ArrayList<Match> getMatches(){return this.matches;}
+
     // M E T H O D E S
     // O V E R R I D E S
     // S T A T I C  M E T H O D E S
+
+    // I N N E R  C L A S S
+    public class MatchDayBuilder
+    {
+        public Match.MatchBuilder[] matches;
+    }
 }

@@ -37,4 +37,11 @@ public class Match
 
     // O V E R R I D E S
     // S T A T I C  M E T H O D E S
+
+    // I N N E R  C L A S S
+    public class MatchBuilder
+    {
+        public int home;
+        public int away;
+    }
 }

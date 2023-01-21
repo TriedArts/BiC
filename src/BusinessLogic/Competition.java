@@ -2,6 +2,7 @@ package BusinessLogic;
 // I M P O R T S
 import java.util.ArrayList;
 
+
 // C L A S S  D E F I N I T I O N
 public class Competition
 {
